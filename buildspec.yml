@@ -15,9 +15,12 @@ phases:
       - npm run build
       - pwd
       - ls
+      - mkdir -p /home/ubuntu/react-hello-world-app
+      - mv build /home/ubuntu/react-hello-world-app
+      - ls /home/ubuntu/react-hello-world-app
       - echo two phase done******************
 
 artifacts:
   files:
     - '**/*'
-  base-directory: react-hello-world-app-vinit/build  # Adjust this if your build output is in a different directory
+  base-directory: /home/ubuntu/react-hello-world-app  # Adjust this if your build output is in a different directory
