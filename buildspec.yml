@@ -8,10 +8,11 @@ phases:
       - pwd
       - ls
       - npm install
-      - echo one phase done
+      - echo one phase done****************
 
   build:
     commands:
+      - npm run build
       - pwd
       - ls
-      - echo two phase done
+      - echo two phase done******************
