@@ -21,8 +21,3 @@ phases:
       - cd ~/react-hello-world-app/build
       - ls
       - echo two phase done******************
-
-artifacts:
-  files:
-    - '**/*'
-  base-directory: ~/react-hello-world-app  # Adjust this if your build output is in a different directory
