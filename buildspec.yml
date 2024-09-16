@@ -5,8 +5,11 @@ phases:
     runtime-versions:
       nodejs: 12  # Specify the Node.js version you need
     commands:
-      - npm install
+      - pwd
+      - ls
+      - cd react-hello-world-app
+      - echo one phase done
 
   build:
     commands:
-      - npm run build
+      - echo two phase done
