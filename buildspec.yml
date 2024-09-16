@@ -17,7 +17,7 @@ phases:
       - ls
       - echo two phase done******************
 
-  artifacts:
+artifacts:
   files:
     - '**/*'
   base-directory: react-hello-world-app-vinit/build  # Adjust this if your build output is in a different directory
