@@ -13,11 +13,4 @@ phases:
   build:
     commands:
       - npm run build
-      - pwd
-      - ls
-      - mkdir ~/react-hello-world-app
-      - mv build ~/react-hello-world-app
-      - ls ~/react-hello-world-app
-      - cd ~/react-hello-world-app/build
-      - ls
       - echo two phase done******************
