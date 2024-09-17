@@ -14,3 +14,7 @@ phases:
     commands:
       - npm run build
       - echo two phase done******************
+
+artifacts:
+  files:
+    - '**/*'
