@@ -14,13 +14,13 @@ permissions:
 hooks:
 
   BeforeInstall:
-    - location: scripts/before_install.sh
+    - location: Scripts/before_install.sh
       timeout: 300
   
   AfterInstall:
-    - location: scripts/after_install.sh
+    - location: Scripts/after_install.sh
       timeout: 300
 
   ApplicationStart:
-    - location: scripts/app_start.sh
+    - location: Scripts/app_start.sh
       timeout: 300
